@@ -1,11 +1,12 @@
 *{
     box-sizing: border-box;
+    margin:0;
+    padding:0;
 }
 
 
 body{
-    margin:0px;
-    padding:0px;
+   background-color:slategray;
     font-display: poppins;
     scroll-behavior: smooth;
 }
@@ -23,18 +24,18 @@ a{
     height: 100vh;
     position: relative;
 }
-
+/* Nav Bar  start*/
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 5px 10px rgba(0, 0, 0, 0.02);
+    box-shadow: 5px 10px rgba(138, 132, 132, 0.02);
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
     z-index: 1;
-    background-color: white;
+    background-color:white;
 }
 
 nav ul{
@@ -62,5 +63,61 @@ nav ul li a:hover{
 }
 .logo img {
     height: 55px;
+}    
+/* Nav bar  end*/
+
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 375px;
+}
+.content-section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    border-radius: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    
+}
+/* work section element start */
+.jump:hover{
+    background-color: turquoise;
+    color:white;
+    box-shadow: 5px 10px 30px rgba(64, 198, 196, 0.03);
+    transition: all ease 0.2s;
+    text-decoration: none;
+}
+.jump a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+.jump a:visited {
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+/* work section element end */
+/* Contact me section element  start */
+.reach-me a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+.reach-me a:visited {
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
 }
 
+.reach-me a:hover{
+    background-color: turquoise;
+    color:white;
+    box-shadow: 5px 10px 30px rgba(64, 198, 196, 0.03);
+    transition: all ease 0.2s;
+    text-decoration: none;
+}
+/* contact me section element  end */

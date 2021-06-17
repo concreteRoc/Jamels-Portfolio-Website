@@ -66,6 +66,10 @@ nav ul li a:hover{
 }    
 /* Nav bar  end*/
 
+.photo-of-me{
+    height: 100px;
+    width: 100px;
+}
 
 .content {
     width: 75%;
@@ -122,33 +126,37 @@ nav ul li a:hover{
 }
 /* contact me section element  end */
 
-.main-projects{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
+.my-projects{
+    display: flex;
+    flex-wrap: wrap;
+}
   
+.fun-projects {
+    display: flex;
+    width: 48%;
+    height: 100px;
+    margin-bottom: 2%;
 }
-.box1 {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
+.fun-projects:first-child{
+    width: 100%;
+
+} 
+
+@media screen and (max-width: 992px) {
+    .content-section {
+      width: 50%;
+      align-content: center;
+    }
+    .my-projects{
+        width: 50%;
+    }
 }
-.box2{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-.box3{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-.box4{
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
+@media screen and (max-width: 768px) {
+    .content-section{
+      width: 100%;
+      align-content: center;
+    }
+    .my-projects{
+        width: 100%;
+    }
+}    

@@ -1,97 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-     <meta charset="UTF-8" />
-     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <title>Welcome</title>
-    
-     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-     <style> @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');</style>
-   </head>
-   <body>
-        <header id="main">
-            <nav>
-                <a class="logo">
-                    <img src="./assets/images/initials.jpg"/>
-                </a>
-                <ul> 
-                    <li><a href="#aboutMe"> About Me </a></li>
-                    <li><a href="#professionalSkills"> Professional Skills </a></li>
-                    <li><a href="#work"> Work </a></li>
-                    <li><a href="#contactMe"> Contact Me </a></li>
-                </ul>
-            </nav>
-        </header>
-   
-        <main>
-            <div>              
-                <img class="photo-of-me" src="./assets/images/Photo1.jpg"/>
-            </div>
-            <section class="content">
-                <article id="aboutMe" class="content-section">
-                    <h2>About Me</h2>
-                    <p>Hello! My name is Jamel Eggleston and welcome to my portfolio. I was born and raised in Pontiac, Michigan and migrated to Durham, North Carolina
-                    as an adult. I enjoy developing, video games (RPG are my favorite), and working out. Please feel free to explore!</p>
-                </article>
-                <article id="professionalSkills" class="content-section">
-                    <h2>Professional Skills</h2>
-                    <p>My professional skills incule, but are not limited to the following</p>
-                    <ul>
-                        <li>HTML & CSS</li>
-                        <li>JavaScript</li>
-                        <li>Python</li>
-                        <li>Azure</li>
-                    </ul>
-                </article>
-                <article id="work" class="content-section">
-                    <h2>Work</h2>
-                    <p> As a new developer, I enjoying taking on projects that will continue to sharpen my skills. I find enjoyment in solving
-                    a problem someone has. If you have more time to spare, please <a class="jump" href="#projects">view my projects </a>!
-                    </p>   
-                </article>
-                <article id="contactMe" class="content-section">
-                    <h2>Contact Me</h2>
-                    <p>If you would like to get in contact with me, please use one of the options below!</p>
-                    <ul class="reach-me">
-                        <li><a href="https://www.linkedin.com/in/jamel-eggleston-4804481a4/" target="_blank"> LinkedIn</a></li>
-                        <li><a href="https://github.com/concreteRoc" target="_blank"> GitHub </a></li>
-                        <li> <a href="mailto:jamel.eggleston@gmail.com"> Send email </a> </li>
-                    </ul>
-                </article>
-            </section> 
-            
-            <section id="projects">
-                <h2>Projects</h2>
-                <div class="my-projects">
-                    <div class="fun-projects">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome!</title>
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
-                        <div>
-                         <h3>Refactorying</h3>
-                         <p>HTML/CSS</p>
-                        </div>
-                    </div>
-                    <div class="fun-projects">
-                        <div>
-                            <h3>Calculator</h3>
-                            <p>React/Javascript/CSS</p>
-                        </div>
-                    </div>
-                    <div class="fun-projects">
-                        <div>
-                            <h3>Hangman Game</h3>
-                            <p>Python</p>
-                        </div>
-                    </div>
-                    <div class="fun-projects">
-                        <div>
-                            <h3>CSS Cheatsheet</h3>
-                            <p>HTML/CSS</p>
-                        </div> 
-                    
-                    </div>
+
+    </head>
+    <body>
+        <header>
+            <div class="header-photo">
+                <div>
+                    <h1>Jamel Eggleston</h1>
+                 <p>Web Developer</p>
                 </div>
+                <Nav>
+                    <div>
+                        <ul>
+                            <li><a href="#aboutMe">About Me</a></li>
+                            <li><a href="#myWork">My Work</a></li>
+                            <li><a href="#contactMe">Contact Me</a></li>
+                        </ul>
+                    </div>
+                </Nav>
+            </div>
+        </header>
+        <main>
+            <section class="allAboutMe">
+                <div>
+                    <!-- picture of me -->
+                    <img src="./assets/images/Photo1.jpg" alt="picture of me">
+                </div>
+                <div id="aboutMe">
+                    <h2>About Me</h2>
+                </div>
+                <div >
+                    <p>Hi my name is Jamel or Jay for short! I'm a full stack web developer based in Durham, NC and I primarily use the MERN 
+                       stack to develope my projects. I enjoying solving problems and in my free time, I love playing video games (RPG are my favorite) and working out. Please
+                       take a moment to explore my recent work and feel free to reach out to me for any developing needs you may have! 
+                    </p>
+                </div>    
             </section>
-        </main>       
+            <section>
+                <div class="still-about-me" id="myWork">
+                    <h2>My Work</h2>
+                </div> 
+                <div class="all-projects">
+                
+                <div class="project-1"> 
+                    <a href="https://github.com/concreteRoc/Horiseon-Demo-Website" target="_blank"><img src="./assets/images/Demo.jpg" alt=""></a>
+                    <h4>Porject 1</h4>
+                    <p>Demo Website</p>
+                </div>
+                <div class="sub-project">
+                    <img src="./assets/images/Code.jpg" alt="">
+                    <h4>Project 2</h4>
+                    <p>Coming soon</p>
+                </div>
+                <div class="sub-project">
+                    <img src="./assets/images/Code.jpg" alt="">
+                    <h4>Project 3</h4>
+                    <p>Coming soon</p>
+                </div>
+                <div class="sub-project">
+                    <img src="./assets/images/Code.jpg" alt="">
+                    <h4>Project 4</h4>
+                    <p>Coming soon</p>
+                </div>
+                </div>          
+            </section>
+            <section>
+                
+                <div class="bottom" id="contactMe">
+                    <h2>Contact Me</h2>
+                </div>
+                <div class="reach-me">
+                    <ul>
+                        <li><a href="https://github.com/concreteRoc" target="_blank">Github</a></li>
+                        <li><a href="https://www.linkedin.com/in/jamel-eggleston-4804481a4/" target="_blank">LinkedIn</a></li>
+                        <li><a href="mailto:jamel.eggleston@gmail.com">Email</a></li>
+                    </ul>
+                </div>
+                
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2021 Jamel Eggleston </p>
+        </footer>
     </body>
 </html>

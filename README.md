@@ -6,7 +6,7 @@ the sample projects will link you to current GitHub repo's.
 Media query was added for a responsive design.
 
 ## Screen Shot
-<img src="./assets/images/screen-shot1.jpg"/>
+
 <img src="./assets/images/screen-shot1.jpg">
 
 ## Webiste 

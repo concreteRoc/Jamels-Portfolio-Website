@@ -21,6 +21,7 @@ a{
 }
 
 
+/* code for nav bar */
 nav{
     display: flex;
     justify-content: space-around;
@@ -51,6 +52,9 @@ nav ul li a:hover{
     box-shadow: 5px 10px 30px rgba(64, 198, 196, 0.03);
     transition: all ease 0.2s;
 }
+/* code for nav bar ends */
+
+/* back ground image for header */
 .header-photo{
     background-image: url(../images/headerPhoto.png);
     padding: 50px;
@@ -87,6 +91,8 @@ nav ul li a:hover{
     margin: 25px;
 
 }
+
+/* I had issues styling these cards with flex box*/
 .all-projects{
     display: flex;
     flex-wrap: wrap; 
@@ -125,6 +131,7 @@ nav ul li a:hover{
     width: 200px;
 }
 
+/* this is the code for "contact me" section */
 .bottom h2{
     text-align: center;
 }
